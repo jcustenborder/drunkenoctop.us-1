@@ -14,8 +14,8 @@ node {
 
     if (env.BRANCH_NAME == 'master') {
         stage('publish') {
-            sh 'mkdir -p build/gh-pages'
-            dir('build/gh-pages') {
+            sh 'mkdir build'
+            dir('build') {
                 git branch: 'gh-pages', changelog: false, credentialsId: 'jenkins-drunkenoctop.us', poll: false, url: 'git@github.com:drunken-octopus/drunkenoctop.us.git'
                 sh 'rsync --exclude ".git" -avz --delete ../site/* .'
                 sh 'git config user.email "jenkins+drunken-octopus@custenborder.com"'
