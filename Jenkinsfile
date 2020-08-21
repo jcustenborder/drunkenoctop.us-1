@@ -12,7 +12,7 @@ node {
         }
     }
 
-    if(env.BRANCH == 'master') {
+    if (env.BRANCH_NAME == 'master') {
         stage('publish') {
             sh 'mkdir -p build/gh-pages'
             dir('build/gh-pages') {
