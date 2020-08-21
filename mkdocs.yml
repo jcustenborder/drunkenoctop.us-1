@@ -1,0 +1,17 @@
+site_name: Drunken Octopus
+theme: readthedocs
+nav:
+  - Supported Printers:
+    - Mini: printers/mini.md
+    - Mini 2: printers/mini2.md
+    - Taz 5: printers/taz5.md
+    - Taz 6: printers/taz6.md
+    - Taz Pro: printers/tazPro.md
+    - Taz Workhorse: printers/tazWorkhorse.md
+  - Contributing: contributing.md
+  - Tutorials:
+    - Taz 6 with BLTouch: tutorials/taz6BlTouchItWorks3d.md
+
+google_analytics: ['UA-175976737-1', 'drunkenoctop.us']
+
+#
