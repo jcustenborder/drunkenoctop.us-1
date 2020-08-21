@@ -33,8 +33,3 @@
 | Oliveoil_TAZ6Archim            | E3D_Hermera                       |
 | Oliveoil_TAZ6BLTouch           | E3D_Hermera                       |
 | Oliveoil_TAZ6ArchimBLTouch     | E3D_Hermera                       |
-
-
-## Tutorials
-
-[BlTouch](../tutorials/taz6BlTouchItWorks3d.md)
