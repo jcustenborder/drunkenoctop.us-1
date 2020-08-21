@@ -8,7 +8,9 @@ nav:
     - Taz 6: printers/taz6.md
     - Taz Pro: printers/tazPro.md
     - Taz Workhorse: printers/tazWorkhorse.md
+  - Building from source: compile-from-source.md
   - Contributing: contributing.md
+  - FAQ: faq.md
   - Tutorials:
     - Taz 6 with BLTouch: tutorials/taz6BlTouchItWorks3d.md
 
