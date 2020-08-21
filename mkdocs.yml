@@ -13,5 +13,9 @@ nav:
     - Taz 6 with BLTouch: tutorials/taz6BlTouchItWorks3d.md
 
 google_analytics: ['UA-175976737-1', 'drunkenoctop.us']
+site_url: http://www.drunkenoctop.us/
+repo_url: https://github.com/drunken-octopus/drunkenoctop.us
+#repo_name: Github
 
+site_description: "Drunken Octopus Marlin: An Alternative (Unofficial) Firmware for LulzBot Printers"
 #
